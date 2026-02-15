@@ -1,1 +1,3 @@
-from .apiClient import WordpronunciationAPIClient
+from .apiClient import WordpronunciationAPIClient, WordpronunciationAPIClientError
+
+__all__ = ['WordpronunciationAPIClient', 'WordpronunciationAPIClientError']
