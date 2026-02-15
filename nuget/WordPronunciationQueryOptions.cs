@@ -12,7 +12,6 @@ namespace APIVerve.API.WordPronunciation
     {
         /// <summary>
         /// The word to get the pronunciation of
-        /// Example: hello
         /// </summary>
         [JsonProperty("word")]
         public string Word { get; set; }
