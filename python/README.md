@@ -217,8 +217,9 @@ from apiverve_wordpronunciation.apiClient import WordpronunciationAPIClient
 
 api = WordpronunciationAPIClient("[YOUR_API_KEY]")
 
+query = { "word": "hello" }
+
 try:
-    query = { "word": "hello" }
     result = api.execute(query)
     print(result)
 finally:
