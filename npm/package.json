@@ -1,6 +1,6 @@
 {
   "name": "@apiverve/wordpronunciation",
-  "version": "1.1.13",
+  "version": "1.1.14",
   "description": "Word Pronunciation is a simple tool for getting the pronunciation of a word. It returns the pronunciation of the word provided.",
   "main": "index.js",
   "types": "index.d.ts",
