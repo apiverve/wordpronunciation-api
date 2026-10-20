@@ -2,8 +2,10 @@ openapi: 3.0.4
 info:
   title: Word Pronunciation
   description: >-
-    Word Pronunciation is a simple tool for getting the pronunciation of a word.
-    It returns the pronunciation of the word provided.
+    Word Pronunciation is a pronunciation API that retrieves the phonetic
+    pronunciation of any English word in ARPAbet format. Pass a word to receive
+    its phonetic transcription for speech synthesis, dictionaries, or language
+    tools.
   termsOfService: https://apiverve.com/terms/
   contact:
     name: APIVerve Support
@@ -18,7 +20,7 @@ servers:
 paths:
   /v1/wordpronunciation:
     get:
-      summary: Get Word Pronunciation
+      summary: Word Pronunciation
       description: Get the pronunciation of a word
       operationId: wordpronunciation
       parameters:
