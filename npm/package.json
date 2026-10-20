@@ -1,7 +1,7 @@
 {
   "name": "@apiverve/wordpronunciation",
-  "version": "1.2.0",
-  "description": "Word Pronunciation is a simple tool for getting the pronunciation of a word. It returns the pronunciation of the word provided.",
+  "version": "1.2.2",
+  "description": "Word Pronunciation is a pronunciation API that retrieves the phonetic pronunciation of any English word in ARPAbet format. Pass a word to receive its phonetic transcription for speech synthesis, dictionaries, or language tools.",
   "main": "index.js",
   "types": "index.d.ts",
   "sideEffects": false,
@@ -23,7 +23,7 @@
     "directory": "npm"
   },
   "keywords": [
-    "word pronunciation", "word pronunciation api", "word pronunciation tool", "word pronunciation software", "word pronunciation service"
+    "word pronunciation api", "pronunciation api", "english pronunciation api", "text to arpabet", "arpabet translator"
   ],
   "author": {
     "name": "APIVerve",
@@ -34,7 +34,7 @@
   "bugs": {
     "url": "https://github.com/apiverve/wordpronunciation-api/issues"
   },
-  "homepage": "https://apiverve.com/marketplace/wordpronunciation?utm_source=npm&utm_medium=homepage",
+  "homepage": "https://apiverve.com/marketplace/wordpronunciation?utm_source=npm&utm_medium=referral&utm_content=homepage",
   "devDependencies": {
     "mocha": "^11.0.1",
     "chai": "^5.1.2",
